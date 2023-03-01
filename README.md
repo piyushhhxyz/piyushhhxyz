@@ -1,7 +1,6 @@
 README.md
 
-[![MasterHead](https://64.media.tumblr.com/33cec5fffbef6cf57aed4e538a85407c/tumblr_onxl2newUq1w05w8zo1_500.gif)](https://rishavchanda.io)
-[![MasterHead](https://media.tenor.com/BJ-9w-MUVCMAAAAC/tis100-sad.gif)](https://rishavchanda.io)
+[![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
 <h1 align="center">Yo, Its me Piyush Bhawsar</h1>
 <h3 align="center">passionate MEARN developer from India</h3>
 <img align="right" alt="Coding" width="400" src="https://image.myanimelist.net/ui/_3fYL8i6Q-n-155t3dn_4hksVs3MIJxHadG7A7FI_oTy9pL-UqrC-cycJtDkuZzC"
