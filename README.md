@@ -4,8 +4,8 @@
 <h2 align="center">Passionate MEARN Developer From India</h2>
 <img align="right" alt="Coding" width="400" src="https://image.myanimelist.net/ui/_3fYL8i6Q-n-155t3dn_4hksVs3MIJxHadG7A7FI_oTy9pL-UqrC-cycJtDkuZzC"
 
-<!-- [![](https://visitcount.itsvg.in/api?id=piyushbhawsar&icon=0&color=0)](https://visitcount.itsvg.in) -->
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=piyushbhawsar&label=Profile%20views&color=000000&style=flat" alt="piyushbhawsar" /> </p>
+[![](https://visitcount.itsvg.in/api?id=piyushbhawsar&icon=0&color=0)](https://visitcount.itsvg.in) 
+<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=piyushbhawsar&label=Profile%20views&color=000000&style=flat" alt="piyushbhawsar" /> </p>-->
 
 # 💫 About Piyush:
 🔭 I’m currently working on API & Testing<br>👯 I’m looking to collaborate on MEARN <br>🌱 I’m currently learning TypeScript and MySQL<br>💬 Ask me about JavaScript , Api's<br>⚡ Fun fact  I Code Daily 💫
