@@ -4,7 +4,7 @@
 <h2 align="center">Passionate MEARN Developer From India</h2>
 <img align="right" alt="Coding" width="400" src="https://image.myanimelist.net/ui/_3fYL8i6Q-n-155t3dn_4hksVs3MIJxHadG7A7FI_oTy9pL-UqrC-cycJtDkuZzC"
 
-[![](https://visitcount.itsvg.in/api?id=piyushbhawsar&icon=0&color=6)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=piyushhhxyz&icon=0&color=6)](https://visitcount.itsvg.in)
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=piyushbhawsar&label=Profile%20views&color=000000&style=flat" alt="piyushbhawsar" /> </p>-->
 
 # 💫 About Piyush:
@@ -14,8 +14,8 @@
 <p align="left">
 <a href="https://twitter.com/piyush" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="piyush" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/peeyush ." target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="peeyush ." height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/piyush.bhawsar1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="piyush.bhawsar1" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/piyush_bhawsar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="piyush_bhawsar" height="30" width="40" /></a>
+<a href="https://codeforces.com/profile/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -25,9 +25,9 @@
 
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=piyushbhawsar&theme=nightowl&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=piyushbhawsar&theme=nightowl&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=piyushbhawsar&theme=nightowl&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=piyushhhxyz&theme=nightowl&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=piyushhhxyz&theme=nightowl&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=piyushhhxyz&theme=nightowl&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 
 ### ✍️ Dev Quote
