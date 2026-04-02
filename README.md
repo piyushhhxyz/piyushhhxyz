@@ -1,7 +1,7 @@
 
 ![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
 <h1 align="center">Yo , Piyush Bhawsar</h1> 
-<h2 align="center">Passionate MEARN Developer From India</h2>
+<h2 align="center">Passionate MERN Developer From India</h2>
 <img align="right" alt="Coding" width="400" src="https://image.myanimelist.net/ui/_3fYL8i6Q-n-155t3dn_4hksVs3MIJxHadG7A7FI_oTy9pL-UqrC-cycJtDkuZzC"
 
 [![](https://visitcount.itsvg.in/api?id=piyushhhxyz&icon=0&color=6)](https://visitcount.itsvg.in)
