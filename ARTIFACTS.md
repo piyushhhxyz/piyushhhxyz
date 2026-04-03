@@ -1,0 +1,1 @@
+# News Screenshots & Recording Artifacts
