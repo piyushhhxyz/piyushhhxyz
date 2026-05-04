@@ -1,0 +1,2 @@
+Dev-3 temporal-worker direct CLI smoke test final.
+Sentinel: DEV3_DIRECT_CLI_SENTINEL_1777922750
