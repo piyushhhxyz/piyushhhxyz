@@ -137,4 +137,30 @@ describe('GET /api/skills', () => {
     expect(res.status).toBe(200);
     expect(res.body.data).toEqual([]);
   });
+
+  // 18. Repeated q parameter uses first value (no 500)
+  test('repeated q parameter uses first value', async () => {
+    const res = await request(app).get('/api/skills?q=react&q=node');
+    expect(res.status).toBe(200);
+    expect(res.body.meta.query).toBe('react');
+  });
+
+  // 19. Repeated platform parameter uses first value (no 500)
+  test('repeated platform parameter uses first value', async () => {
+    const res = await request(app).get('/api/skills?q=react&platform=web&platform=mobile');
+    expect(res.status).toBe(200);
+    res.body.data.forEach((item) => {
+      expect(item.platform).toBe('web');
+    });
+  });
+
+  // 20. Repeated sort parameter uses first value (no 500)
+  test('repeated sort parameter uses first value', async () => {
+    const res = await request(app).get('/api/skills?q=react&sort=name&sort=relevance');
+    expect(res.status).toBe(200);
+    expect(res.body.meta.sort).toBe('name');
+    const names = res.body.data.map((item) => item.name);
+    const sorted = [...names].sort((a, b) => a.localeCompare(b));
+    expect(names).toEqual(sorted);
+  });
 });
