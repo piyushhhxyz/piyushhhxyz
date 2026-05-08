@@ -1,0 +1,17 @@
+{
+  "name": "healthcheck-server",
+  "version": "1.0.0",
+  "description": "Simple Express server with a health check endpoint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
