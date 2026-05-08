@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A REST API for searching skills by keyword with platform filtering and relevance sorting",
   "main": "src/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",

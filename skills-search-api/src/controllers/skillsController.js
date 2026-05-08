@@ -1,7 +1,7 @@
 const skillsService = require('../services/skillsService');
 
-const VALID_PLATFORMS = ['web', 'mobile', 'data', 'devops'];
-const VALID_SORTS = ['relevance', 'name'];
+const VALID_PLATFORMS = Object.freeze(['web', 'mobile', 'data', 'devops']);
+const VALID_SORTS = Object.freeze(['relevance', 'name']);
 
 const search = (req, res, next) => {
   try {

@@ -4,7 +4,7 @@ const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
 
-app.use(express.json());
+app.use(express.json({ limit: '1kb' }));
 
 app.use('/api/skills', skillsRoutes);
 

@@ -1,6 +1,9 @@
 const skills = require('../data/skills.json');
 
 const search = (keyword, { platform = null, sort = 'relevance' } = {}) => {
+  if (!keyword || typeof keyword !== 'string') {
+    return [];
+  }
   const keywordLower = keyword.toLowerCase();
 
   // Filter by keyword (case-insensitive substring on name + description)
