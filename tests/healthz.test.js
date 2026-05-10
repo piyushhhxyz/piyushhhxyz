@@ -1,7 +1,7 @@
 const request = require("supertest");
 const app = require("../src/app");
 
-describe("GET /healthz", () => {
+describe("healthz endpoint", () => {
   it("returns 200 with { status: 'ok' }", async () => {
     const res = await request(app).get("/healthz");
     expect(res.status).toBe(200);
@@ -23,8 +23,9 @@ describe("GET /healthz", () => {
     expect(res.status).toBe(200);
   });
 
-  it("returns 404 for POST /healthz", async () => {
+  it("returns 405 for POST /healthz", async () => {
     const res = await request(app).post("/healthz");
-    expect(res.status).toBe(404);
+    expect(res.status).toBe(405);
+    expect(res.headers["allow"]).toBe("GET, HEAD");
   });
 });
