@@ -1,0 +1,28 @@
+{
+  "name": "piyushhhxyz",
+  "version": "1.0.0",
+  "description": "Simple Express server with a health check endpoint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushhhxyz/piyushhhxyz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyushhhxyz/piyushhhxyz/issues"
+  },
+  "homepage": "https://github.com/piyushhhxyz/piyushhhxyz#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
