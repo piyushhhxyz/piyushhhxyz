@@ -24,8 +24,11 @@ describe("GET /healthz", () => {
     const res = await request(app).get("/healthz");
     const after = new Date().toISOString();
     expect(res.body.timestamp).toBeDefined();
-    expect(res.body.timestamp >= before).toBe(true);
-    expect(res.body.timestamp <= after).toBe(true);
+    // Validate it's a proper ISO-8601 string that round-trips cleanly
+    expect(new Date(res.body.timestamp).toISOString()).toBe(res.body.timestamp);
+    // Compare as numeric timestamps for clarity
+    expect(Date.parse(res.body.timestamp)).toBeGreaterThanOrEqual(Date.parse(before));
+    expect(Date.parse(res.body.timestamp)).toBeLessThanOrEqual(Date.parse(after));
   });
 
   it("returns 404 for unknown routes", async () => {
