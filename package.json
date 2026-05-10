@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Simple Express server with health check endpoint",
   "main": "server.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node server.js",
     "test": "jest --verbose"
