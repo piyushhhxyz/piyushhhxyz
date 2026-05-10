@@ -2,7 +2,11 @@
   "name": "piyushhhxyz-server",
   "version": "1.0.0",
   "description": "Simple Express server with health check endpoint",
+  "license": "MIT",
   "main": "src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node src/index.js",
     "test": "jest --verbose"
