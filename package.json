@@ -1,0 +1,17 @@
+{
+  "name": "piyushhhxyz-server",
+  "version": "1.0.0",
+  "description": "Simple Express server with health check endpoint",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
