@@ -7,12 +7,26 @@ const server = app.listen(PORT, () => {
 });
 
 // Graceful shutdown
+let shuttingDown = false;
+
 function shutdown(signal) {
+  if (shuttingDown) {
+    console.log(`${signal} received again – already shutting down`);
+    return;
+  }
+  shuttingDown = true;
+
   console.log(`${signal} received – shutting down`);
   server.close(() => {
     console.log("Server closed");
     process.exit(0);
   });
+
+  // Force exit if server.close() hangs (e.g. keep-alive connections)
+  setTimeout(() => {
+    console.error("Forced shutdown after timeout");
+    process.exit(1);
+  }, 10_000).unref();
 }
 
 process.on("SIGTERM", () => shutdown("SIGTERM"));
