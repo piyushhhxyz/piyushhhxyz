@@ -17,4 +17,14 @@ describe("GET /healthz", () => {
     const res = await request(app).get("/unknown");
     expect(res.status).toBe(404);
   });
+
+  it("does not accept POST requests on /healthz", async () => {
+    const res = await request(app).post("/healthz");
+    expect(res.status).toBe(404);
+  });
+
+  it("response body contains only the status field", async () => {
+    const res = await request(app).get("/healthz");
+    expect(Object.keys(res.body)).toEqual(["status"]);
+  });
 });
