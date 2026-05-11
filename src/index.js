@@ -12,6 +12,10 @@ function shutdown(signal) {
     console.log("Server closed");
     process.exit(0);
   });
+  setTimeout(() => {
+    console.error("Forcefully shutting down");
+    process.exit(1);
+  }, 10_000).unref();
 }
 
 process.on("SIGTERM", () => shutdown("SIGTERM"));
