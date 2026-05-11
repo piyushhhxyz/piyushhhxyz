@@ -18,7 +18,7 @@ describe("GET /healthz", () => {
     expect(res.status).toBe(404);
   });
 
-  it("does not accept POST requests on /healthz", async () => {
+  it("POST /healthz returns 404 (no route defined)", async () => {
     const res = await request(app).post("/healthz");
     expect(res.status).toBe(404);
   });
