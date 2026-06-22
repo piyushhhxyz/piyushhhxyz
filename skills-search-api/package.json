@@ -1,0 +1,21 @@
+{
+  "name": "skills-search-api",
+  "version": "1.0.0",
+  "description": "A REST API for searching skills by keyword with platform filtering and relevance sorting",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

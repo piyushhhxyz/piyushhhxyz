@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "description": "A JavaScript library for building user interfaces with a component-based architecture using React patterns",
+    "platform": "web"
+  },
+  {
+    "id": 2,
+    "name": "Angular",
+    "description": "A platform for building mobile and desktop web applications using TypeScript",
+    "platform": "web"
+  },
+  {
+    "id": 3,
+    "name": "Vue.js",
+    "description": "A progressive JavaScript framework for building user interfaces and single-page applications",
+    "platform": "web"
+  },
+  {
+    "id": 4,
+    "name": "Node.js",
+    "description": "A JavaScript runtime built on Chrome's V8 engine for server-side development",
+    "platform": "web"
+  },
+  {
+    "id": 5,
+    "name": "Express",
+    "description": "A minimalist web framework for Node.js providing robust routing and middleware",
+    "platform": "web"
+  },
+  {
+    "id": 6,
+    "name": "React Native",
+    "description": "A framework for building native mobile apps using React components and JavaScript",
+    "platform": "mobile"
+  },
+  {
+    "id": 7,
+    "name": "Flutter",
+    "description": "Google's UI toolkit for building natively compiled mobile applications from a single codebase",
+    "platform": "mobile"
+  },
+  {
+    "id": 8,
+    "name": "Swift",
+    "description": "Apple's programming language for iOS and macOS application development",
+    "platform": "mobile"
+  },
+  {
+    "id": 9,
+    "name": "Kotlin",
+    "description": "A modern programming language for Android application development",
+    "platform": "mobile"
+  },
+  {
+    "id": 10,
+    "name": "Python",
+    "description": "A general-purpose programming language widely used in data science and machine learning",
+    "platform": "data"
+  },
+  {
+    "id": 11,
+    "name": "TensorFlow",
+    "description": "An open-source machine learning framework developed by Google for numerical computation",
+    "platform": "data"
+  },
+  {
+    "id": 12,
+    "name": "Pandas",
+    "description": "A Python library for data manipulation and analysis with powerful data structures",
+    "platform": "data"
+  },
+  {
+    "id": 13,
+    "name": "Docker",
+    "description": "A platform for building, shipping, and running containerized applications",
+    "platform": "devops"
+  },
+  {
+    "id": 14,
+    "name": "Kubernetes",
+    "description": "A container orchestration system for automating deployment, scaling, and management",
+    "platform": "devops"
+  },
+  {
+    "id": 15,
+    "name": "TypeScript",
+    "description": "A typed superset of JavaScript that compiles to plain JavaScript for large-scale applications",
+    "platform": "web"
+  }
+]
