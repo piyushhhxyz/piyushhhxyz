@@ -1,0 +1,85 @@
+{
+  "header": "piyush@bhawsar",
+  "themes": {
+    "dark": {
+      "bg": "#161b22",
+      "fg": "#c9d1d9",
+      "key": "#ffa657",
+      "value": "#a5d6ff",
+      "cc": "#616e7f",
+      "add": "#3fb950",
+      "del": "#f85149"
+    },
+    "light": {
+      "bg": "#f6f8fa",
+      "fg": "#24292f",
+      "key": "#953800",
+      "value": "#0a3069",
+      "cc": "#c2cfde",
+      "add": "#1a7f37",
+      "del": "#cf222e"
+    }
+  },
+  "about": [
+    [
+      "OS",
+      "macOS 26, Ubuntu, Android"
+    ],
+    [
+      "Uptime",
+      "{age}"
+    ],
+    [
+      "Location",
+      "Bangalore, India"
+    ],
+    [
+      "Kernel",
+      "Staff AI Engineer"
+    ],
+    [
+      "IDE",
+      "Claude Code, Cursor, VSCode"
+    ],
+    [],
+    [
+      "Languages.Programming",
+      "JavaScript, TypeScript, Python, Go, Rust"
+    ],
+    [
+      "Languages.Computer",
+      "HTML, CSS, JSON, YAML, Bash, SQL"
+    ],
+    [
+      "Languages.Real",
+      "English, Hindi"
+    ],
+    [],
+    [
+      "Interests.Software",
+      "AI agents, evals, LLM tooling, RAG"
+    ],
+    [
+      "Interests.Other",
+      "lifting, incline walks, spicy food"
+    ]
+  ],
+  "contact": [
+    [
+      "LinkedIn",
+      "piyushhhxyz"
+    ],
+    [
+      "X",
+      "piyushhhxyz"
+    ],
+    [
+      "GitHub",
+      "piyushhhxyz"
+    ]
+  ],
+  "exclude_repos": [
+    "piyushhhxyz/vorflux-swe-benchmarks"
+  ],
+  "_comment_exclude_repos": "Repos whose diffs are dominated by generated artifacts (eval trajectories, fixtures, datasets). Repos with checked-in node_modules/dist/vendor are detected and dropped automatically - list only the ones that slip through."
+}
