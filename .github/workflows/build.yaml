@@ -33,12 +33,23 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # ACCESS_TOKEN is a personal access token with `repo` scope; it makes
-      # private contributions count too. Without it the built-in token is used
-      # and only public activity is measured.
+      # A personal access token with `repo` scope is required, not optional.
+      # Actions' built-in GITHUB_TOKEN is scoped to this one repository, so it
+      # reports a fraction of the account and would silently shrink the card.
+      - name: Check token
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          if [ -z "$ACCESS_TOKEN" ]; then
+            echo "::error::ACCESS_TOKEN secret is not set. Create a personal"\
+                 "access token with 'repo' scope, then run:"\
+                 "gh secret set ACCESS_TOKEN --repo piyushhhxyz/piyushhhxyz"
+            exit 1
+          fi
+
       - name: Collect stats
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: python stats.py
 
       - name: Render SVG

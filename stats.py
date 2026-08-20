@@ -272,11 +272,35 @@ def collect(token, login, exclude=()):
     }
 
 
+def sanity_check(new, previous):
+    """Refuse to publish a card that just lost most of its data.
+
+    The usual cause is a token that cannot see the whole account - Actions'
+    built-in GITHUB_TOKEN is scoped to a single repository, so it reports a
+    fraction of the repos and a tiny line count. Failing here keeps a bad run
+    from overwriting a good card.
+    """
+    if not previous:
+        return
+    for field, floor in (("repos", 0.8), ("loc_add", 0.8), ("stars", 0.8)):
+        was, now = previous.get(field, 0), new.get(field, 0)
+        if was and now < was * floor:
+            raise SystemExit(
+                f"refusing to write: {field} fell from {was:,} to {now:,}.\n"
+                "This almost always means ACCESS_TOKEN is missing or lacks "
+                "`repo` scope, so the API only returned part of the account.")
+
+
 if __name__ == "__main__":
     tok = os.environ.get("ACCESS_TOKEN") or os.environ.get("GITHUB_TOKEN")
     cfg = json.loads(pathlib.Path("config.json").read_text())
     who = os.environ.get("PROFILE_LOGIN") or cfg.get("login") or "piyushhhxyz"
+    stats_path = CACHE / "stats.json"
+    previous = json.loads(stats_path.read_text()) if stats_path.exists() else None
+
     data = collect(tok, who, cfg.get("exclude_repos", []))
+    sanity_check(data, previous)
+
     CACHE.mkdir(exist_ok=True)
-    (CACHE / "stats.json").write_text(json.dumps(data, indent=2))
+    stats_path.write_text(json.dumps(data, indent=2))
     print(json.dumps({k: v for k, v in data.items() if k != "excluded"}, indent=2))
